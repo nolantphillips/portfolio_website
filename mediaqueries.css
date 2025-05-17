@@ -87,4 +87,12 @@
     .text-container {
         text-align: justify;
     }
+    .project-img-descr {
+    width: 50vw;
+    height: auto;
+    display: block;
+    border-radius: 0;
+    object-fit: cover;
+    margin: 1rem 0;
+    }
 }

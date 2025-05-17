@@ -216,7 +216,7 @@
                     </div>
                     <h2 class="experience-sub-title project-title">NHL xG Model</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nolantphillips/xG_model'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/nolantphillips/xG_model', '_blank')">
                             Github
                         </button>
                     </div>
@@ -227,7 +227,7 @@
                     </div>
                     <h2 class="experience-sub-title project-title">NHL Automated Game Reports</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nolantphillips/nhl_game_reports'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/nolantphillips/nhl_game_reports', '_blank')">
                             Github
                         </button>
                     </div>
@@ -238,7 +238,7 @@
                     </div>
                     <h2 class="experience-sub-title project-title">NHL Database</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nolantphillips/nhl_database'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/nolantphillips/nhl_database', '_blank')">
                             Github
                         </button>
                     </div>
@@ -247,9 +247,9 @@
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="ALPR" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Automated Licencse Plate Recognition</h2>
+                    <h2 class="experience-sub-title project-title">Automated License Plate Recognition</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nolantphillips/alpr'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/nolantphillips/alpr', '_blank')">
                             Github
                         </button>
                     </div>
@@ -260,7 +260,7 @@
                     </div>
                     <h2 class="experience-sub-title project-title">NYC Yellow Cab Ride Demand Prediction</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nolantphillips/sp25_taxi'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/nolantphillips/sp25_taxi', '_blank')">
                             Github
                         </button>
                     </div>
@@ -271,10 +271,35 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Citi Bike Ride Demand Prediction</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nolantphillips/CitiBike'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/nolantphillips/CitiBike', '_blank')">
                             Github
                         </button>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-projects">
+            <h2 class="section__text__p1">Other Projects</h2>
+            <div class="text-project-list">
+                <div class="text-project">
+                    <h3 class="experience-sub-title">Real Time Crypto Trading Predictions</h3>
+                    <img src="./assets/candles.png" alt="Candles" class="project-img-descr">
+                    <p>
+                        Trading data was gathered from Kraken and used to create candles showing the current market for Bitcoin. Models were trained to predict whether Bitcoin should be bought, sold, or held at 5 minute intervals.
+                        Models were trained every hour to ensure the best results possible. Models made predictions based on candles and several other features. A trading bot was created to buy and sell coins based on model predictions.
+                        The bot had three different trading strategies labeled as conservative, aggressive, and balanced. The strategies were dictated by the confidence level of the prediction. The project was deployed using Docker containers 
+                        and was hosted on a DigitalOcean droplet for a total of ten days. Over the course of ten days the trading strategies dictated by the model predicitons led to a 3.6% - 6.4% increase to portfolio value.
+                    </p>
+                    <img src="./assets/balances.png" alt="Balances" class="project-img-descr">
+                </div>
+                <div class="text-project">
+                    <h3 class="experience-sub-title">NYC Taxi in Snowflake</h3>
+                    <img src="./assets/dashboards.png" alt="Dashboards" class="project-img-descr">
+                    <p>
+                        The NYC Yellow Cab data for 2023 through 2024 was downloaded, cleaned, and stored in a SQL database in Snowflake. Models were trained to predict
+                        ride demand at the given pickup location for the next hour, predictions were made and then stored in the database. Dashboards were made directly
+                        in Snowflake showing the actual rides versus the predicted rides at a pickup location over time.
+                    </p>
                 </div>
             </div>
         </div>
